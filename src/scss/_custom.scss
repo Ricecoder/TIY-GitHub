@@ -1,11 +1,14 @@
 .leftcol {
   background-color: blue;
   float: left;
+  clear: right;
   display: inline-block;
+  width: 30%;
 }
 
 .rightcol {
   background-color: green;
   float: right;
   display: inline-block;
+  width: 70%;
 }
