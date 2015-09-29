@@ -1,3 +1,16 @@
-p {
-  color: red;
+.leftcol {
+  background-color: blue;
+  float: left;
+  clear: right;
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+}
+
+.rightcol {
+  background-color: green;
+  float: left;
+  display: inline-block;
+  width: 60%;
+  margin: 10px;
 }
