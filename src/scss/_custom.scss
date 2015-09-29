@@ -4,11 +4,13 @@
   clear: right;
   display: inline-block;
   width: 30%;
+  margin: 10px;
 }
 
 .rightcol {
   background-color: green;
-  float: right;
+  float: left;
   display: inline-block;
-  width: 70%;
+  width: 60%;
+  margin: 10px;
 }
