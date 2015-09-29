@@ -9,6 +9,7 @@
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="octicons/octicons.css">
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
@@ -29,24 +30,26 @@
           <h2>octocat</h2>
 
           <ul>
-            <li>GitHub</li>
-            <li>San Francisco</li>
-            <li>email link</li>
-            <li>website</li>
-            <li>Joined on Jan 25, 2011</li>
+            <li id="company"><span class="octicon octicon-organization"></span>  GitHub</li>
+            <li id="location"><span class="octicon octicon-location"></span>  San Francisco</li>
+            <li id="email"><span class="octicon octicon-mail"></span>  email link</li>
+            <li id="blog"><span class="octicon octicon-link"></span>  website</li>
+            <li id="created_at"><span class="octicon octicon-clock"></span>  Joined on Jan 25, 2011</li>
           </ul>
 
-          <span class="numbers">
-            <h3>1.1k</h3>
-            <h3>2</h3>
-            <h3>6</h3>
-          </span>
+          <table>
+            <tr class="numbers">
+              <td>1.1k</td>
+              <td>2</td>
+              <td>6</td>
+            </tr>
+            <tr class="category">
+              <th>Followers</th>
+              <th>Starred</th>
+              <th>Following</th>
+            </tr>
+          </table>
 
-          <span class="category">
-            <h5>Followers</h5>
-            <h5>Starred</h5>
-            <h5>Following</h5>
-          </span>
         </section>
 
         <section class="rightcol">
@@ -56,15 +59,15 @@
             <h4>Public activity</h4>
           <span>
 
-          <span class="boxrepo">
-            <ul>
+
+            <ul class="boxrepo">
               <li>Spoon-Knife</li>
               <li>Hello-World</li>
               <li>hello-world</li>
               <li>octocat.github.io</li>
               <li>git-consortium</li>
             </ul>
-          </span>
+
 
           <span class="boxpubcon">
             <div id="activity">This is where the activity graph is</div>
@@ -77,6 +80,8 @@
               <h6>Longest streak</h6>
               <h3>0 days</h3>
               <h6>No recent contributions</h6>
+
+        </section>
 
 
 
