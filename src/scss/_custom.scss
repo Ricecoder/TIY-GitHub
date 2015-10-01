@@ -1,3 +1,82 @@
-p {
-  color: red;
+.leftcol {
+  // background-color: orange;
+  float: left;
+  clear: right;
+  display: inline-block;
+  width: 30%;
+  margin: 10px;
+
+  img {
+    width: 230px;
+    height: 230px;
+    border-radius: 5px;
+  }
+
+  h1 {
+    margin-bottom: 5px;
+  }
+
+  h2 {
+    color: #767676;
+    border-bottom: 1px solid #d8d8d8;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight: lighter;
+  }
+
+  ul{
+    padding-bottom: 17px;
+    padding-left: 5px;
+    border-bottom: 1px solid #d8d8d8;
+    list-style: none;
+
+    // .octicon octicon-organization {
+    //   color: #d8d8d8;
+    // }
+
+  }
+
+  table {
+    display: inline-block;
+    padding: 10px;
+    border-bottom: 1px solid #d8d8d8;
+    width: 100%;
+
+    td {
+      width: 20px;
+      text-align: center;
+
+    }
+
+    th {
+      width: 20px;
+      padding: 5px;
+      font-weight: lighter;
+    }
+
+    .numbers {
+      font-weight: bold;
+      color: #4078c0;
+      font-size: 20pt;
+    }
+
+    .category {
+      color: #767676;
+      font-size: 12pt;
+
+    }
+  }
+
+}
+
+.rightcol {
+  background-color: #d8d8d8;
+  float: left;
+  display: inline-block;
+  width: 60%;
+  margin: 10px;
+}
+
+.boxpubcon {
+
 }
