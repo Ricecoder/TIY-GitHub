@@ -1,0 +1,2047 @@
+[
+  {
+    "id": "3209541153",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 43315542,
+      "name": "Ricecoder/TIY-GitHub",
+      "url": "https://api.github.com/repos/Ricecoder/TIY-GitHub"
+    },
+    "payload": {
+      "push_id": 816122068,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/feature--my-little-profile",
+      "head": "36283c43246ef867a2ee01f765ad44c7f7929307",
+      "before": "64b3fa4e1cc08f01b2bc8b4a945b4e7ee489df80",
+      "commits": [
+        {
+          "sha": "36283c43246ef867a2ee01f765ad44c7f7929307",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "added profile json",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/TIY-GitHub/commits/36283c43246ef867a2ee01f765ad44c7f7929307"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:44:12Z"
+  },
+  {
+    "id": "3209512289",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 43315542,
+      "name": "Ricecoder/TIY-GitHub",
+      "url": "https://api.github.com/repos/Ricecoder/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--my-little-profile",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:36:42Z"
+  },
+  {
+    "id": "3209462609",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 18,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/18",
+        "id": 46828713,
+        "html_url": "https://github.com/Ricecoder/ricecoder.github.io/pull/18",
+        "diff_url": "https://github.com/Ricecoder/ricecoder.github.io/pull/18.diff",
+        "patch_url": "https://github.com/Ricecoder/ricecoder.github.io/pull/18.patch",
+        "issue_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/18",
+        "number": 18,
+        "state": "open",
+        "locked": false,
+        "title": "Release  0.0.0",
+        "user": {
+          "login": "Ricecoder",
+          "id": 13753919,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Ricecoder",
+          "html_url": "https://github.com/Ricecoder",
+          "followers_url": "https://api.github.com/users/Ricecoder/followers",
+          "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+          "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+          "repos_url": "https://api.github.com/users/Ricecoder/repos",
+          "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-05T20:23:05Z",
+        "updated_at": "2015-10-05T20:23:05Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/18/commits",
+        "review_comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/18/comments",
+        "review_comment_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/18/comments",
+        "statuses_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/dc5142938483548c7f95d528b9a9723cf4f06485",
+        "head": {
+          "label": "Ricecoder:release--0.0.0",
+          "ref": "release--0.0.0",
+          "sha": "dc5142938483548c7f95d528b9a9723cf4f06485",
+          "user": {
+            "login": "Ricecoder",
+            "id": 13753919,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Ricecoder",
+            "html_url": "https://github.com/Ricecoder",
+            "followers_url": "https://api.github.com/users/Ricecoder/followers",
+            "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+            "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+            "repos_url": "https://api.github.com/users/Ricecoder/repos",
+            "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693960,
+            "name": "ricecoder.github.io",
+            "full_name": "Ricecoder/ricecoder.github.io",
+            "owner": {
+              "login": "Ricecoder",
+              "id": 13753919,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Ricecoder",
+              "html_url": "https://github.com/Ricecoder",
+              "followers_url": "https://api.github.com/users/Ricecoder/followers",
+              "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+              "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+              "repos_url": "https://api.github.com/users/Ricecoder/repos",
+              "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io",
+            "forks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/forks",
+            "keys_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/events",
+            "assignees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/merges",
+            "archive_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:36Z",
+            "updated_at": "2015-08-31T18:48:36Z",
+            "pushed_at": "2015-10-05T20:23:06Z",
+            "git_url": "git://github.com/Ricecoder/ricecoder.github.io.git",
+            "ssh_url": "git@github.com:Ricecoder/ricecoder.github.io.git",
+            "clone_url": "https://github.com/Ricecoder/ricecoder.github.io.git",
+            "svn_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "homepage": null,
+            "size": 324,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 2,
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "Ricecoder:master",
+          "ref": "master",
+          "sha": "295757255d477f8601f6698c9cd59168300fbd99",
+          "user": {
+            "login": "Ricecoder",
+            "id": 13753919,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Ricecoder",
+            "html_url": "https://github.com/Ricecoder",
+            "followers_url": "https://api.github.com/users/Ricecoder/followers",
+            "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+            "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+            "repos_url": "https://api.github.com/users/Ricecoder/repos",
+            "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693960,
+            "name": "ricecoder.github.io",
+            "full_name": "Ricecoder/ricecoder.github.io",
+            "owner": {
+              "login": "Ricecoder",
+              "id": 13753919,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Ricecoder",
+              "html_url": "https://github.com/Ricecoder",
+              "followers_url": "https://api.github.com/users/Ricecoder/followers",
+              "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+              "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+              "repos_url": "https://api.github.com/users/Ricecoder/repos",
+              "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io",
+            "forks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/forks",
+            "keys_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/events",
+            "assignees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/merges",
+            "archive_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:36Z",
+            "updated_at": "2015-08-31T18:48:36Z",
+            "pushed_at": "2015-10-05T20:23:06Z",
+            "git_url": "git://github.com/Ricecoder/ricecoder.github.io.git",
+            "ssh_url": "git@github.com:Ricecoder/ricecoder.github.io.git",
+            "clone_url": "https://github.com/Ricecoder/ricecoder.github.io.git",
+            "svn_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "homepage": null,
+            "size": 324,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 2,
+            "forks": 0,
+            "open_issues": 2,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/18"
+          },
+          "html": {
+            "href": "https://github.com/Ricecoder/ricecoder.github.io/pull/18"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/18"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/18/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/18/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/18/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/dc5142938483548c7f95d528b9a9723cf4f06485"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 11,
+        "additions": 1493,
+        "deletions": 0,
+        "changed_files": 25
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:23:06Z"
+  },
+  {
+    "id": "3209452276",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816089839,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "dc5142938483548c7f95d528b9a9723cf4f06485",
+      "before": "c12c06b45c3e94659335d305c2c3bb28997fdcea",
+      "commits": [
+        {
+          "sha": "dc5142938483548c7f95d528b9a9723cf4f06485",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "added bower, gulp, sass, browser",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/dc5142938483548c7f95d528b9a9723cf4f06485"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:20:16Z"
+  },
+  {
+    "id": "3209423977",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816079664,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "c12c06b45c3e94659335d305c2c3bb28997fdcea",
+      "before": "cb9b99cb03ff4478fa1781e7e84c29efb4c89b2e",
+      "commits": [
+        {
+          "sha": "c12c06b45c3e94659335d305c2c3bb28997fdcea",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "added mocha chai",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/c12c06b45c3e94659335d305c2c3bb28997fdcea"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:12:25Z"
+  },
+  {
+    "id": "3209406337",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816073392,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "cb9b99cb03ff4478fa1781e7e84c29efb4c89b2e",
+      "before": "eaeb953b3ef357b29186fd010b91b864ce661c21",
+      "commits": [
+        {
+          "sha": "cb9b99cb03ff4478fa1781e7e84c29efb4c89b2e",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "created package.json",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/cb9b99cb03ff4478fa1781e7e84c29efb4c89b2e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:07:26Z"
+  },
+  {
+    "id": "3209396334",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816069884,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "eaeb953b3ef357b29186fd010b91b864ce661c21",
+      "before": "361bbfd33a3f80540e9244f5dfe441bd0779e8e3",
+      "commits": [
+        {
+          "sha": "eaeb953b3ef357b29186fd010b91b864ce661c21",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "added files to git ignore",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/eaeb953b3ef357b29186fd010b91b864ce661c21"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:04:36Z"
+  },
+  {
+    "id": "3209389110",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/362",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/362/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/362/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/362/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/362",
+        "id": 109365876,
+        "number": 362,
+        "title": "19 -- Lacey Rice",
+        "user": {
+          "login": "Ricecoder",
+          "id": 13753919,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Ricecoder",
+          "html_url": "https://github.com/Ricecoder",
+          "followers_url": "https://api.github.com/users/Ricecoder/followers",
+          "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+          "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+          "repos_url": "https://api.github.com/users/Ricecoder/repos",
+          "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/labels/Good%20Work",
+            "name": "Good Work",
+            "color": "159818"
+          }
+        ],
+        "state": "closed",
+        "locked": false,
+        "assignee": {
+          "login": "Ricecoder",
+          "id": 13753919,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Ricecoder",
+          "html_url": "https://github.com/Ricecoder",
+          "followers_url": "https://api.github.com/users/Ricecoder/followers",
+          "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+          "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+          "repos_url": "https://api.github.com/users/Ricecoder/repos",
+          "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "milestone": {
+          "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/milestones/21",
+          "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/milestones/19%20--%20Dawn%20of%20the%20Chessboard",
+          "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/milestones/21/labels",
+          "id": 1338346,
+          "number": 21,
+          "title": "19 -- Dawn of the Chessboard",
+          "description": "",
+          "creator": {
+            "login": "kellymurray",
+            "id": 7375716,
+            "avatar_url": "https://avatars.githubusercontent.com/u/7375716?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/kellymurray",
+            "html_url": "https://github.com/kellymurray",
+            "followers_url": "https://api.github.com/users/kellymurray/followers",
+            "following_url": "https://api.github.com/users/kellymurray/following{/other_user}",
+            "gists_url": "https://api.github.com/users/kellymurray/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/kellymurray/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/kellymurray/subscriptions",
+            "organizations_url": "https://api.github.com/users/kellymurray/orgs",
+            "repos_url": "https://api.github.com/users/kellymurray/repos",
+            "events_url": "https://api.github.com/users/kellymurray/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/kellymurray/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "open_issues": 10,
+          "closed_issues": 5,
+          "state": "open",
+          "created_at": "2015-10-05T14:22:36Z",
+          "updated_at": "2015-10-05T20:02:33Z",
+          "due_on": "2015-10-05T04:00:00Z",
+          "closed_at": null
+        },
+        "comments": 4,
+        "created_at": "2015-10-01T19:23:58Z",
+        "updated_at": "2015-10-05T20:02:33Z",
+        "closed_at": "2015-10-05T20:02:33Z",
+        "body": "* [x] **Yak Shaving**\r\n  * _WIP Issue_\r\n    * link to PRs in:\r\n      * [x] `USERNAME.github.io`\r\n      * [x] `TIY-Chessboard`\r\n  * _WIP Branch_\r\n    * [x] `USERNAME.github.io:tutorial-week4`\r\n    * [x] `TIY-Chessboard:19--world-war-chess`\r\n  * _WIP Files_\r\n    * in `USERNAME.github.io:tutorial-week-4` or whatever\r\n    * in `TIY-Chessboard:19--world-war-chess`\r\n      * `js/`\r\n        * `controllers.js`\r\n        * `main.js` -- in case something breaks\r\n        * `tests.js` -- Controllers are hard to test\r\n      * `index.html` -- wire 'em up!\r\n* [x] Journal, Week 4\r\n  * [x] Final draft of tutorial written!\r\n  * [x] 2 x :+1: reviews!\r\n  * [x] And you give 2 x :+1:\r\n* [x] **World War Chess**"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:02:33Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3209385257",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816065911,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "361bbfd33a3f80540e9244f5dfe441bd0779e8e3",
+      "before": "7e2dc37b4c2c6ddfd486a4030b1d9040ce5315a1",
+      "commits": [
+        {
+          "sha": "361bbfd33a3f80540e9244f5dfe441bd0779e8e3",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "added import links to file",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/361bbfd33a3f80540e9244f5dfe441bd0779e8e3"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T20:01:29Z"
+  },
+  {
+    "id": "3209367663",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816059748,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "7e2dc37b4c2c6ddfd486a4030b1d9040ce5315a1",
+      "before": "e9fdccbbfb148f8b95434bc5b6474fc051fa50a6",
+      "commits": [
+        {
+          "sha": "7e2dc37b4c2c6ddfd486a4030b1d9040ce5315a1",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "changed main.css into main.scss",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/7e2dc37b4c2c6ddfd486a4030b1d9040ce5315a1"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:56:48Z"
+  },
+  {
+    "id": "3209360375",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816057187,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "e9fdccbbfb148f8b95434bc5b6474fc051fa50a6",
+      "before": "67acf7c1b2592d747a7f92cfdd2dec670ac28d7e",
+      "commits": [
+        {
+          "sha": "e9fdccbbfb148f8b95434bc5b6474fc051fa50a6",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "readded main.css so I can convert to sass",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/e9fdccbbfb148f8b95434bc5b6474fc051fa50a6"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:54:55Z"
+  },
+  {
+    "id": "3209340589",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816050080,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "67acf7c1b2592d747a7f92cfdd2dec670ac28d7e",
+      "before": "d00ae0854661dd5fb05285e93b26acd975e427f3",
+      "commits": [
+        {
+          "sha": "67acf7c1b2592d747a7f92cfdd2dec670ac28d7e",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "created multiple scss files",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/67acf7c1b2592d747a7f92cfdd2dec670ac28d7e"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:49:28Z"
+  },
+  {
+    "id": "3209325747",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816044831,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "d00ae0854661dd5fb05285e93b26acd975e427f3",
+      "before": "c5baf1303faf3b7758a276b13abf9a17e12e60a5",
+      "commits": [
+        {
+          "sha": "d00ae0854661dd5fb05285e93b26acd975e427f3",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "deleted css",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/d00ae0854661dd5fb05285e93b26acd975e427f3"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:45:20Z"
+  },
+  {
+    "id": "3209302186",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816036489,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "c5baf1303faf3b7758a276b13abf9a17e12e60a5",
+      "before": "7ff5d727b04120ba41f0848aac8447d16e769e54",
+      "commits": [
+        {
+          "sha": "c5baf1303faf3b7758a276b13abf9a17e12e60a5",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "deleted files",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/c5baf1303faf3b7758a276b13abf9a17e12e60a5"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:38:43Z"
+  },
+  {
+    "id": "3209290861",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816032496,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/release--0.0.0",
+      "head": "7ff5d727b04120ba41f0848aac8447d16e769e54",
+      "before": "295757255d477f8601f6698c9cd59168300fbd99",
+      "commits": [
+        {
+          "sha": "7ff5d727b04120ba41f0848aac8447d16e769e54",
+          "author": {
+            "email": "laceyrice@me.com",
+            "name": "Lacey R"
+          },
+          "message": "added boilerplate",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/7ff5d727b04120ba41f0848aac8447d16e769e54"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:35:34Z"
+  },
+  {
+    "id": "3209268444",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "ref": "release--0.0.0",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:29:10Z"
+  },
+  {
+    "id": "3209265153",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41059030,
+      "name": "TIY-Durham/2015-FALL-FEE",
+      "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/380",
+        "labels_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/380/labels{/name}",
+        "comments_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/380/comments",
+        "events_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/380/events",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/380",
+        "id": 109854251,
+        "number": 380,
+        "title": "20 -- Lacey Rice",
+        "user": {
+          "login": "Ricecoder",
+          "id": 13753919,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Ricecoder",
+          "html_url": "https://github.com/Ricecoder",
+          "followers_url": "https://api.github.com/users/Ricecoder/followers",
+          "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+          "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+          "repos_url": "https://api.github.com/users/Ricecoder/repos",
+          "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "labels": [
+
+        ],
+        "state": "open",
+        "locked": false,
+        "assignee": null,
+        "milestone": null,
+        "comments": 0,
+        "created_at": "2015-10-05T18:10:52Z",
+        "updated_at": "2015-10-05T19:28:15Z",
+        "closed_at": null,
+        "body": "* **Yak-Shaving**\r\n  * [ ] Create a _WIP Issue_ with links to:\r\n    * your PR in `USERNAME.github.io`\r\n      * [ ] from `journal-week-5` into `master`\r\n      * [ ] from `release--0.0.0` into `master`\r\n    * [ ] your PR in `TIY-GitHub` from `release--0.0.2` into `master`\r\n    * [ ] your PRs in `TIY-GitHub` from `feature--*` (multiple) into `release--0.0.2`\r\n  * [ ] **MERGE YOUR OPEN PRs!**\r\n    * [ ] in `USERNAME.github.io` from `journal-week-4` into `master`\r\n    * [ ] in `TIY-Chessboard`\r\n    * [x] in `TIY-GitHub` (from last week)\r\n  * [ ] Create the following _WIP Branch_ in:\r\n    * `USERNAME.github.io`\r\n      * [ ] named `journal-week-5` from `master`\r\n      * [ ] named `release--0.0.0` from `master`\r\n    * `TIY-GitHub`\r\n      * [x] named `release--0.0.2` from `master`\r\n      * [ ] named `feature--profile-placeholders` from `release--0.0.2`\r\n      * [ ] named `feature--FILL_ME_IN` from `release--0.0.2`\r\n  * [ ] Create or update the following _WIP Files_ in:\r\n    * `USERNAME.github.io:journal-week-5`\r\n      * `journal-week-5.md` or something creative\r\n      * `tutorial-week-5.md` or something creative\r\n      * `resource-week-5.md` or something creative\r\n    * `USERNAME.github.io:release--0.0.0`\r\n      * `.gitignore` -- with the following patterns:\r\n        * `/dist`\r\n        * `/node_modules`\r\n        * `/bower_components`\r\n        * `css`\r\n      * `package.json` -- and `npm install --link --save-dev`\r\n        * `bower`\r\n        * `browser-sync`\r\n        * `gulp`\r\n        * `node-sass`\r\n      * `specs/` -- for **BEAST MODE**\r\n      * `src/` -- from `yo h5bp`\r\n        * `js/`\r\n          * `main.js`\r\n          * nothing else!\r\n        * `scss/`\r\n          * `_common.scss`\r\n          * `_desktop.scss`\r\n          * `_mobile.scss`\r\n          * `_tablet.scss`\r\n          * `main.scss` -- with `@import` links to above\r\n        * `css/` -- DELETED!\r\n        * `index.html`\r\n    * `TIY-GitHub:release--0.0.2`\r\n      * `apis/github/users/`\r\n        * `USERNAME.json` -- for _your_ profile data\r\n        * `USERNAME/`\r\n          * `repos.json` -- for _your_ repository data\r\n          * `activity.json` -- for _your_ public events\r\n      * `src/`\r\n        * `scss/_custom.scss` -- to clean up your (S)CSS\r\n        * `js/main.js` -- in case you need to catch up on `jQuery.ajax`\r\n        * `index.html`\r\n* **Journal, Week 5**\r\n  * [ ] Resource Journal _Draft_\r\n  * [ ] Reflective Journal _Outline_\r\n  * [ ] Tutorial _Outline_\r\n* **Reading APIs**\r\n  * [ ] All caught up!\r\n* **GitHub Revolution** -- Now with MORE CHECKBOXES!\r\n  * [ ] `feature--my-little-profile`\r\n    * [ ] `USERNAME.json`\r\n    * [ ] `USERNAME/repos.json`\r\n    * [ ] `USERNAME/activity.json`\r\n  * [ ] `feature--profile-placeholders`\r\n    * [ ] Please state your `name`...\r\n    * [ ] Would you like to `login`?\r\n    * [ ] Octocat is a `company` man, er... monster.\r\n    * [ ] Last known `location`?\r\n    * [ ] You've got `email`!\r\n    * [ ] Don't forget the missing `link`...!\r\n    * [ ] Wait, gimme a `moment` to figure this out...\r\n  * [ ] `feature--main-column-tabs`\r\n    * [ ] Seems like this is `<nav>`-igation...\r\n    * [ ] Don't just _use_ the Octicons, _become_ the Octicons...\r\n    * [ ] Is that _really_ a `<button>`?\r\n    * [ ] To start, just _make_ one `.active`...\r\n    * [ ] Don't settle for less than interactive!\r\n    * [ ] Every `.tabs` needs `.panels`...\r\n  * [ ] `feature--repo-list-layout`\r\n    * [ ] If I _wanted_ to `Search`...\r\n    * [ ] ...or filter!\r\n    * [ ] This cat sure likes nursery rhymes...\r\n    * [ ] ...about CSS, apparently.\r\n    * [ ] Stars and forks forever!\r\n    * [ ] How does he/she/it find time for these updates?\r\n    * [ ] Don't tell me you forgot all the links!\r\n    * [ ] And the World says \"Hello\" to you, too!\r\n    * [ ] 3 Examples is enough to derive a pattern from...\r\n  * **BEAST MODE** `feature--repo-list-placeholders`\r\n    * What do \"Spoon-Knife\" and \"Hello-World\" have in common?\r\n    * Don't tell me you forgot the links again!\r\n    * That `description` is not very descriptive...\r\n    * She said we don't speak the same `language`.\r\n    * What do you call a vampire who practice astrology? `stargazer_count`\r\n    * It's like ten thousand `forks` when all you need is a `\"Spoon-Knife\"`"
+      },
+      "comment": {
+        "url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/comments/145640512",
+        "html_url": "https://github.com/TIY-Durham/2015-FALL-FEE/issues/380#issuecomment-145640512",
+        "issue_url": "https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/380",
+        "id": 145640512,
+        "user": {
+          "login": "Ricecoder",
+          "id": 13753919,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Ricecoder",
+          "html_url": "https://github.com/Ricecoder",
+          "followers_url": "https://api.github.com/users/Ricecoder/followers",
+          "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+          "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+          "repos_url": "https://api.github.com/users/Ricecoder/repos",
+          "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "created_at": "2015-10-05T19:28:15Z",
+        "updated_at": "2015-10-05T19:28:15Z",
+        "body": "PRs:\r\nJournal-week-5 WIP\r\nhttps://github.com/Ricecoder/ricecoder.github.io/pull/17\r\n\r\n"
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:28:15Z",
+    "org": {
+      "id": 13875036,
+      "login": "TIY-Durham",
+      "gravatar_id": "",
+      "url": "https://api.github.com/orgs/TIY-Durham",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13875036?"
+    }
+  },
+  {
+    "id": "3209258370",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "action": "opened",
+      "number": 17,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/17",
+        "id": 46822450,
+        "html_url": "https://github.com/Ricecoder/ricecoder.github.io/pull/17",
+        "diff_url": "https://github.com/Ricecoder/ricecoder.github.io/pull/17.diff",
+        "patch_url": "https://github.com/Ricecoder/ricecoder.github.io/pull/17.patch",
+        "issue_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/17",
+        "number": 17,
+        "state": "open",
+        "locked": false,
+        "title": "Journal week 5",
+        "user": {
+          "login": "Ricecoder",
+          "id": 13753919,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Ricecoder",
+          "html_url": "https://github.com/Ricecoder",
+          "followers_url": "https://api.github.com/users/Ricecoder/followers",
+          "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+          "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+          "repos_url": "https://api.github.com/users/Ricecoder/repos",
+          "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-05T19:26:24Z",
+        "updated_at": "2015-10-05T19:26:24Z",
+        "closed_at": null,
+        "merged_at": null,
+        "merge_commit_sha": null,
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/17/commits",
+        "review_comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/17/comments",
+        "review_comment_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/17/comments",
+        "statuses_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/162cd9593f99d2dfdca62b3c7a75f097d36f8547",
+        "head": {
+          "label": "Ricecoder:journal-week-5",
+          "ref": "journal-week-5",
+          "sha": "162cd9593f99d2dfdca62b3c7a75f097d36f8547",
+          "user": {
+            "login": "Ricecoder",
+            "id": 13753919,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Ricecoder",
+            "html_url": "https://github.com/Ricecoder",
+            "followers_url": "https://api.github.com/users/Ricecoder/followers",
+            "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+            "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+            "repos_url": "https://api.github.com/users/Ricecoder/repos",
+            "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693960,
+            "name": "ricecoder.github.io",
+            "full_name": "Ricecoder/ricecoder.github.io",
+            "owner": {
+              "login": "Ricecoder",
+              "id": 13753919,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Ricecoder",
+              "html_url": "https://github.com/Ricecoder",
+              "followers_url": "https://api.github.com/users/Ricecoder/followers",
+              "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+              "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+              "repos_url": "https://api.github.com/users/Ricecoder/repos",
+              "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io",
+            "forks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/forks",
+            "keys_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/events",
+            "assignees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/merges",
+            "archive_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:36Z",
+            "updated_at": "2015-08-31T18:48:36Z",
+            "pushed_at": "2015-10-05T19:24:17Z",
+            "git_url": "git://github.com/Ricecoder/ricecoder.github.io.git",
+            "ssh_url": "git@github.com:Ricecoder/ricecoder.github.io.git",
+            "clone_url": "https://github.com/Ricecoder/ricecoder.github.io.git",
+            "svn_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "homepage": null,
+            "size": 324,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "Ricecoder:master",
+          "ref": "master",
+          "sha": "295757255d477f8601f6698c9cd59168300fbd99",
+          "user": {
+            "login": "Ricecoder",
+            "id": 13753919,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Ricecoder",
+            "html_url": "https://github.com/Ricecoder",
+            "followers_url": "https://api.github.com/users/Ricecoder/followers",
+            "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+            "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+            "repos_url": "https://api.github.com/users/Ricecoder/repos",
+            "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693960,
+            "name": "ricecoder.github.io",
+            "full_name": "Ricecoder/ricecoder.github.io",
+            "owner": {
+              "login": "Ricecoder",
+              "id": 13753919,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Ricecoder",
+              "html_url": "https://github.com/Ricecoder",
+              "followers_url": "https://api.github.com/users/Ricecoder/followers",
+              "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+              "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+              "repos_url": "https://api.github.com/users/Ricecoder/repos",
+              "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io",
+            "forks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/forks",
+            "keys_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/events",
+            "assignees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/merges",
+            "archive_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:36Z",
+            "updated_at": "2015-08-31T18:48:36Z",
+            "pushed_at": "2015-10-05T19:24:17Z",
+            "git_url": "git://github.com/Ricecoder/ricecoder.github.io.git",
+            "ssh_url": "git@github.com:Ricecoder/ricecoder.github.io.git",
+            "clone_url": "https://github.com/Ricecoder/ricecoder.github.io.git",
+            "svn_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "homepage": null,
+            "size": 324,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 1,
+            "forks": 0,
+            "open_issues": 1,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/17"
+          },
+          "html": {
+            "href": "https://github.com/Ricecoder/ricecoder.github.io/pull/17"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/17"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/17/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/17/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/17/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/162cd9593f99d2dfdca62b3c7a75f097d36f8547"
+          }
+        },
+        "merged": false,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": null,
+        "comments": 0,
+        "review_comments": 0,
+        "commits": 3,
+        "additions": 5,
+        "deletions": 0,
+        "changed_files": 3
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:26:24Z"
+  },
+  {
+    "id": "3209250674",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816017996,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "162cd9593f99d2dfdca62b3c7a75f097d36f8547",
+      "before": "8981b9685f9c9efa3262767a0d6a217091b54695",
+      "commits": [
+        {
+          "sha": "162cd9593f99d2dfdca62b3c7a75f097d36f8547",
+          "author": {
+            "email": "Ricecoder@users.noreply.github.com",
+            "name": "Lacey Rice"
+          },
+          "message": "Starting point for resource",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/162cd9593f99d2dfdca62b3c7a75f097d36f8547"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:24:17Z"
+  },
+  {
+    "id": "3209246016",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816016258,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "8981b9685f9c9efa3262767a0d6a217091b54695",
+      "before": "ea382fbaa76117ff89a692c74204da6f6a451ef7",
+      "commits": [
+        {
+          "sha": "8981b9685f9c9efa3262767a0d6a217091b54695",
+          "author": {
+            "email": "Ricecoder@users.noreply.github.com",
+            "name": "Lacey Rice"
+          },
+          "message": "Starting point for tutorial",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/8981b9685f9c9efa3262767a0d6a217091b54695"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:22:55Z"
+  },
+  {
+    "id": "3209242963",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816015134,
+      "size": 1,
+      "distinct_size": 1,
+      "ref": "refs/heads/journal-week-5",
+      "head": "ea382fbaa76117ff89a692c74204da6f6a451ef7",
+      "before": "295757255d477f8601f6698c9cd59168300fbd99",
+      "commits": [
+        {
+          "sha": "ea382fbaa76117ff89a692c74204da6f6a451ef7",
+          "author": {
+            "email": "Ricecoder@users.noreply.github.com",
+            "name": "Lacey Rice"
+          },
+          "message": "Starting point for journal",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/ea382fbaa76117ff89a692c74204da6f6a451ef7"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:22:02Z"
+  },
+  {
+    "id": "3209213767",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "ref": "journal-week-5",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:13:53Z"
+  },
+  {
+    "id": "3209205386",
+    "type": "PushEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "push_id": 816001519,
+      "size": 2,
+      "distinct_size": 1,
+      "ref": "refs/heads/master",
+      "head": "295757255d477f8601f6698c9cd59168300fbd99",
+      "before": "6232187df8a6fee1ca919e5856dac268b9df392b",
+      "commits": [
+        {
+          "sha": "ae11a0a595168454ef464e89ee5700e5fbfa5117",
+          "author": {
+            "email": "Ricecoder@users.noreply.github.com",
+            "name": "Lacey Rice"
+          },
+          "message": "Final draft",
+          "distinct": false,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/ae11a0a595168454ef464e89ee5700e5fbfa5117"
+        },
+        {
+          "sha": "295757255d477f8601f6698c9cd59168300fbd99",
+          "author": {
+            "email": "Ricecoder@users.noreply.github.com",
+            "name": "Lacey Rice"
+          },
+          "message": "Merge pull request #16 from Ricecoder/tutorial-week4\n\nFinal draft",
+          "distinct": true,
+          "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits/295757255d477f8601f6698c9cd59168300fbd99"
+        }
+      ]
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:11:33Z"
+  },
+  {
+    "id": "3209205360",
+    "type": "PullRequestEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 41693960,
+      "name": "Ricecoder/ricecoder.github.io",
+      "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io"
+    },
+    "payload": {
+      "action": "closed",
+      "number": 16,
+      "pull_request": {
+        "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/16",
+        "id": 46634674,
+        "html_url": "https://github.com/Ricecoder/ricecoder.github.io/pull/16",
+        "diff_url": "https://github.com/Ricecoder/ricecoder.github.io/pull/16.diff",
+        "patch_url": "https://github.com/Ricecoder/ricecoder.github.io/pull/16.patch",
+        "issue_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/16",
+        "number": 16,
+        "state": "closed",
+        "locked": false,
+        "title": "Final draft",
+        "user": {
+          "login": "Ricecoder",
+          "id": 13753919,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Ricecoder",
+          "html_url": "https://github.com/Ricecoder",
+          "followers_url": "https://api.github.com/users/Ricecoder/followers",
+          "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+          "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+          "repos_url": "https://api.github.com/users/Ricecoder/repos",
+          "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "body": "",
+        "created_at": "2015-10-02T13:24:55Z",
+        "updated_at": "2015-10-05T19:11:32Z",
+        "closed_at": "2015-10-05T19:11:32Z",
+        "merged_at": "2015-10-05T19:11:32Z",
+        "merge_commit_sha": "1dd358783f932e82dacf86440a5d68b2ba72f056",
+        "assignee": null,
+        "milestone": null,
+        "commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/16/commits",
+        "review_comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/16/comments",
+        "review_comment_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/comments{/number}",
+        "comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/16/comments",
+        "statuses_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/ae11a0a595168454ef464e89ee5700e5fbfa5117",
+        "head": {
+          "label": "Ricecoder:tutorial-week4",
+          "ref": "tutorial-week4",
+          "sha": "ae11a0a595168454ef464e89ee5700e5fbfa5117",
+          "user": {
+            "login": "Ricecoder",
+            "id": 13753919,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Ricecoder",
+            "html_url": "https://github.com/Ricecoder",
+            "followers_url": "https://api.github.com/users/Ricecoder/followers",
+            "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+            "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+            "repos_url": "https://api.github.com/users/Ricecoder/repos",
+            "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693960,
+            "name": "ricecoder.github.io",
+            "full_name": "Ricecoder/ricecoder.github.io",
+            "owner": {
+              "login": "Ricecoder",
+              "id": 13753919,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Ricecoder",
+              "html_url": "https://github.com/Ricecoder",
+              "followers_url": "https://api.github.com/users/Ricecoder/followers",
+              "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+              "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+              "repos_url": "https://api.github.com/users/Ricecoder/repos",
+              "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io",
+            "forks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/forks",
+            "keys_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/events",
+            "assignees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/merges",
+            "archive_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:36Z",
+            "updated_at": "2015-08-31T18:48:36Z",
+            "pushed_at": "2015-10-05T19:11:32Z",
+            "git_url": "git://github.com/Ricecoder/ricecoder.github.io.git",
+            "ssh_url": "git@github.com:Ricecoder/ricecoder.github.io.git",
+            "clone_url": "https://github.com/Ricecoder/ricecoder.github.io.git",
+            "svn_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "homepage": null,
+            "size": 324,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "base": {
+          "label": "Ricecoder:master",
+          "ref": "master",
+          "sha": "6232187df8a6fee1ca919e5856dac268b9df392b",
+          "user": {
+            "login": "Ricecoder",
+            "id": 13753919,
+            "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+            "gravatar_id": "",
+            "url": "https://api.github.com/users/Ricecoder",
+            "html_url": "https://github.com/Ricecoder",
+            "followers_url": "https://api.github.com/users/Ricecoder/followers",
+            "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+            "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+            "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+            "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+            "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+            "repos_url": "https://api.github.com/users/Ricecoder/repos",
+            "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+            "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+            "type": "User",
+            "site_admin": false
+          },
+          "repo": {
+            "id": 41693960,
+            "name": "ricecoder.github.io",
+            "full_name": "Ricecoder/ricecoder.github.io",
+            "owner": {
+              "login": "Ricecoder",
+              "id": 13753919,
+              "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+              "gravatar_id": "",
+              "url": "https://api.github.com/users/Ricecoder",
+              "html_url": "https://github.com/Ricecoder",
+              "followers_url": "https://api.github.com/users/Ricecoder/followers",
+              "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+              "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+              "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+              "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+              "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+              "repos_url": "https://api.github.com/users/Ricecoder/repos",
+              "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+              "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+              "type": "User",
+              "site_admin": false
+            },
+            "private": false,
+            "html_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "description": "",
+            "fork": false,
+            "url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io",
+            "forks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/forks",
+            "keys_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/keys{/key_id}",
+            "collaborators_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/collaborators{/collaborator}",
+            "teams_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/teams",
+            "hooks_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/hooks",
+            "issue_events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/events{/number}",
+            "events_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/events",
+            "assignees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/assignees{/user}",
+            "branches_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/branches{/branch}",
+            "tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/tags",
+            "blobs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/blobs{/sha}",
+            "git_tags_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/tags{/sha}",
+            "git_refs_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/refs{/sha}",
+            "trees_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/trees{/sha}",
+            "statuses_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/{sha}",
+            "languages_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/languages",
+            "stargazers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/stargazers",
+            "contributors_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contributors",
+            "subscribers_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscribers",
+            "subscription_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/subscription",
+            "commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/commits{/sha}",
+            "git_commits_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/git/commits{/sha}",
+            "comments_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/comments{/number}",
+            "issue_comment_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/comments{/number}",
+            "contents_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/contents/{+path}",
+            "compare_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/compare/{base}...{head}",
+            "merges_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/merges",
+            "archive_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/{archive_format}{/ref}",
+            "downloads_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/downloads",
+            "issues_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues{/number}",
+            "pulls_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls{/number}",
+            "milestones_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/milestones{/number}",
+            "notifications_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/notifications{?since,all,participating}",
+            "labels_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/labels{/name}",
+            "releases_url": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/releases{/id}",
+            "created_at": "2015-08-31T18:48:36Z",
+            "updated_at": "2015-08-31T18:48:36Z",
+            "pushed_at": "2015-10-05T19:11:32Z",
+            "git_url": "git://github.com/Ricecoder/ricecoder.github.io.git",
+            "ssh_url": "git@github.com:Ricecoder/ricecoder.github.io.git",
+            "clone_url": "https://github.com/Ricecoder/ricecoder.github.io.git",
+            "svn_url": "https://github.com/Ricecoder/ricecoder.github.io",
+            "homepage": null,
+            "size": 324,
+            "stargazers_count": 0,
+            "watchers_count": 0,
+            "language": null,
+            "has_issues": true,
+            "has_downloads": true,
+            "has_wiki": true,
+            "has_pages": true,
+            "forks_count": 0,
+            "mirror_url": null,
+            "open_issues_count": 0,
+            "forks": 0,
+            "open_issues": 0,
+            "watchers": 0,
+            "default_branch": "master"
+          }
+        },
+        "_links": {
+          "self": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/16"
+          },
+          "html": {
+            "href": "https://github.com/Ricecoder/ricecoder.github.io/pull/16"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/16"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/issues/16/comments"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/16/comments"
+          },
+          "review_comment": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/comments{/number}"
+          },
+          "commits": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/pulls/16/commits"
+          },
+          "statuses": {
+            "href": "https://api.github.com/repos/Ricecoder/ricecoder.github.io/statuses/ae11a0a595168454ef464e89ee5700e5fbfa5117"
+          }
+        },
+        "merged": true,
+        "mergeable": null,
+        "mergeable_state": "unknown",
+        "merged_by": {
+          "login": "Ricecoder",
+          "id": 13753919,
+          "avatar_url": "https://avatars.githubusercontent.com/u/13753919?v=3",
+          "gravatar_id": "",
+          "url": "https://api.github.com/users/Ricecoder",
+          "html_url": "https://github.com/Ricecoder",
+          "followers_url": "https://api.github.com/users/Ricecoder/followers",
+          "following_url": "https://api.github.com/users/Ricecoder/following{/other_user}",
+          "gists_url": "https://api.github.com/users/Ricecoder/gists{/gist_id}",
+          "starred_url": "https://api.github.com/users/Ricecoder/starred{/owner}{/repo}",
+          "subscriptions_url": "https://api.github.com/users/Ricecoder/subscriptions",
+          "organizations_url": "https://api.github.com/users/Ricecoder/orgs",
+          "repos_url": "https://api.github.com/users/Ricecoder/repos",
+          "events_url": "https://api.github.com/users/Ricecoder/events{/privacy}",
+          "received_events_url": "https://api.github.com/users/Ricecoder/received_events",
+          "type": "User",
+          "site_admin": false
+        },
+        "comments": 2,
+        "review_comments": 0,
+        "commits": 1,
+        "additions": 4,
+        "deletions": 2,
+        "changed_files": 1
+      }
+    },
+    "public": true,
+    "created_at": "2015-10-05T19:11:32Z"
+  },
+  {
+    "id": "3209103646",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 43315542,
+      "name": "Ricecoder/TIY-GitHub",
+      "url": "https://api.github.com/repos/Ricecoder/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--profile-placeholders",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:43:23Z"
+  },
+  {
+    "id": "3209101025",
+    "type": "CreateEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 43315542,
+      "name": "Ricecoder/TIY-GitHub",
+      "url": "https://api.github.com/repos/Ricecoder/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--profile-placeholders",
+      "ref_type": "branch",
+      "master_branch": "master",
+      "description": "",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:42:39Z"
+  },
+  {
+    "id": "3209085551",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 43315542,
+      "name": "Ricecoder/TIY-GitHub",
+      "url": "https://api.github.com/repos/Ricecoder/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "yak-shaving",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:38:31Z"
+  },
+  {
+    "id": "3209085018",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 43315542,
+      "name": "Ricecoder/TIY-GitHub",
+      "url": "https://api.github.com/repos/Ricecoder/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--basic-layout",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:38:23Z"
+  },
+  {
+    "id": "3209084924",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 43315542,
+      "name": "Ricecoder/TIY-GitHub",
+      "url": "https://api.github.com/repos/Ricecoder/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--profile-details",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:38:22Z"
+  },
+  {
+    "id": "3209084822",
+    "type": "DeleteEvent",
+    "actor": {
+      "id": 13753919,
+      "login": "Ricecoder",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/Ricecoder",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13753919?"
+    },
+    "repo": {
+      "id": 43315542,
+      "name": "Ricecoder/TIY-GitHub",
+      "url": "https://api.github.com/repos/Ricecoder/TIY-GitHub"
+    },
+    "payload": {
+      "ref": "feature--fetch-data",
+      "ref_type": "branch",
+      "pusher_type": "user"
+    },
+    "public": true,
+    "created_at": "2015-10-05T18:38:18Z"
+  }
+]
