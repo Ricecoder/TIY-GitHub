@@ -26,18 +26,24 @@
 
         <section class="leftcol">
           <img id="octocat" src="https://avatars3.githubusercontent.com/u/583231?v=3&s=400" />
-          <h1>The Octocat</h1>
-          <h2>octocat</h2>
+          <h1>{{name}}</h1>
+          <h2>{{login}}</h2>
 
           <ul>
-            <li id="company"><span class="octicon octicon-organization"></span>  GitHub</li>
-            <li id="location"><span class="octicon octicon-location"></span>  San Francisco</li>
-            <li id="email"><span class="octicon octicon-mail"></span>  email link</li>
-            <li id="blog"><span class="octicon octicon-link"></span>  website</li>
-            <li id="created_at"><span class="octicon octicon-clock"></span>  Joined on Jan 25, 2011</li>
+            <li id="company"><span class="octicon octicon-organization"></span>{{company}}</li>
+            <li id="location"><span class="octicon octicon-location"></span>{{location}}</li>
+            <li id="email"><span class="octicon octicon-mail"></span>{{email}}</li>
+            <li id="blog"><span class="octicon octicon-link"></span>{{blog}}</li>
+            <li id="created_at"><span class="octicon octicon-clock"></span>{{created_at}}</li>
           </ul>
 
-          <table>
+
+          <ul>
+            <li>{{followers}}</li>
+            <li>{{starred_url}}</li>
+            <li>{{following}}</li>
+          </ul>  
+          <!-- <table>
             <tr class="numbers">
               <td>1.1k</td>
               <td>2</td>
@@ -48,7 +54,7 @@
               <th>Starred</th>
               <th>Following</th>
             </tr>
-          </table>
+          </table> -->
 
         </section>
 
