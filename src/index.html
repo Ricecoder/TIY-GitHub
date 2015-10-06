@@ -68,30 +68,30 @@
           <nav>
 
           <div class="buttons">
-          <button id="follow"><span class="octicon octicon-person"></span>Follow</button>
+            <button id="follow"><span class="octicon octicon-person"></span>Follow</button>
           <!--http://foundation.zurb.com/docs/components/dropdown_buttons.html  -->
-          <button class="drpButton"><span class="octicon octicon-stop"></span></button>
+            <button class="drpButton"><span class="octicon octicon-stop"></span></button>
             <!-- <ul id="drpButton" data-dropdown-content class="f-dropdown" aria-hidden="true">>
               <li><a href="#">User Actions</a></li>
               <li><a href="#">Block User</a></li>
               <li><a href="#">Report</a></li>
             </ul> -->
           </div>
-            
-          <input type="text" id="reposrc" placeholder="Find a Repository">
-          <button>Search</button>
+
+          <input type="text" class="reposrc" placeholder="Find a Repository">
+          <button class="reposrc">Search</button>
 
           <ul class="filters">
-            <li>
+            <li class="filters">
               <a href="#">All</a>
             </li>
-            <li>
+            <li class="filters">
               <a href="#">Sources</a>
             </li>
-            <li>
+            <li class="filters">
               <a href="#">Forks</a>
-            </li>
-            <li>
+            </li >
+            <li class="filters">
               <a href="#">Mirrors</a>
             </li>
           </nav>
@@ -105,11 +105,11 @@
                 <h3 class="name">Spoon-Knife</h3>
                 <!-- <a href="/octocat/Spoon-Knife"></a> --> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE -->
                 <p class="descp">This repo is for demonstration purposes only.</p>
-                <p class="meta">Updated 5 hours ago</p> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE {{}}?-->
+                <p class="meta">{{updated_at}}</p> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE {{}}?-->
                 <ul class="stats">
                   <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE {{}}?-->
                   <li>CSS</li>
-                  <li><span class="octicon octicon-star"></span>9,838</li>
+                  <li><span class="octicon octicon-star"></span>{{starred_url}}</li>
                   <li><span class="octicon octicon-git-branch"></span>70,444</li>
                 </ul>
               </li>
@@ -118,11 +118,11 @@
                 <h3 class="name">Hello-World</h3>
                 <!-- <a href="/octocat/Hello-World"></a> --> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE -->
                 <p class="descp">This is your first repo!</p>
-                <p class="meta">Updated 4 days ago</p> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE -->
+                <p class="meta">{{updated_at}}</p> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE -->
                 <ul class="stats">
                 <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE -->
                   <li>CSS</li>
-                  <li><span class="octicon octicon-star"></span>9,838</li>
+                  <li><span class="octicon octicon-star"></span>{{starred_url}}</li>
                   <li><span class="octicon octicon-git-branch"></span>70,444</li>
                 </ul>
               </li>
@@ -131,11 +131,11 @@
                 <h3 class="name">octocat.github.io</h3>
                 <!-- <a href="/octocat/octocat.github.io"></a> --> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE -->
                 <p class="descp"></p>
-                <p class="meta">Updated on Jun 17</p> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE MAYBE WITH {{}}?? -->
+                <p class="meta">{{updated_at}}</p> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE MAYBE WITH {{}}?? -->
                 <ul class="stats">
                 <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE {{}}?-->
                   <li>CSS</li>
-                  <li><span class="octicon octicon-star"></span>9,838</li>
+                  <li><span class="octicon octicon-star"></span>{{starred_url}}</li>
                   <li><span class="octicon octicon-git-branch"></span>70,444</li>
                 </ul>
               </li>
