@@ -11,6 +11,22 @@
 //  console.log(octocatResult);
 // })();
 
-jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
- console.log(arguments);
+// jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
+//  console.log(arguments);
+// });
+
+//CODE FOR TABS
+
+//TODO select tabs add click listener to them
+//TODO add class "active" to SPECIFIC element clicked
+$('nav.tabs').on('click', function() {
+  $('#con').addClass('active');
+  $('#rep').addClass('active');
+  $('#act').addClass('active');
 });
+
+
+
+
+
+//FOR LATER THE .ACTIVE INFO http://stackoverflow.com/questions/3148225/jquery-active-function
