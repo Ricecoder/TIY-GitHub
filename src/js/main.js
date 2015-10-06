@@ -14,6 +14,20 @@
 // jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
 //  console.log(arguments);
 // });
+jQuery.getJSON("../apis/github/users/ricecoder/ricecoder.json", function(data) {
+  $('#name').html('<h1>' + data.name);
+});
+
+
+
+
+
+/* LODASH
+var info = _.template({{name}});
+info({})
+
+*/
+
 
 //CODE FOR TABS
 
