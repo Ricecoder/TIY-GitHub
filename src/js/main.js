@@ -16,6 +16,7 @@
 // });
 jQuery.getJSON("../apis/github/users/ricecoder/ricecoder.json", function(data) {
   $('#name').html('<h1>' + data.name);
+  $('#login').html('<h2>' + data.login);
 });
 
 
