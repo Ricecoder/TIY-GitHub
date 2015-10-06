@@ -19,12 +19,18 @@
 
 //TODO select tabs add click listener to them
 //TODO add class "active" to SPECIFIC element clicked
-$('nav.tabs').on('click', function() {
+$('#con').on('click', function() {
   $('#con').addClass('active');
-  $('#rep').addClass('active');
-  $('#act').addClass('active');
+
 });
 
+$('#rep').on('click', function() {
+  $('#rep').addClass('active');
+});
+
+$('#act').on('click', function() {
+  $('#act').addClass('active');
+});
 
 
 
