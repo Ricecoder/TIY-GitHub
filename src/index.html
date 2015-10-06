@@ -29,7 +29,7 @@
           <h1>{{name}}</h1>
           <h2>{{login}}</h2>
 
-          <ul>
+          <ul\>
             <li id="company"><span class="octicon octicon-organization"></span>{{company}}</li>
             <li id="location"><span class="octicon octicon-location"></span>{{location}}</li>
             <li id="email"><span class="octicon octicon-mail"></span>{{email}}</li>
@@ -42,7 +42,7 @@
             <li>{{followers}}</li>
             <li>{{starred_url}}</li>
             <li>{{following}}</li>
-          </ul>  
+          </ul>
           <!-- <table>
             <tr class="numbers">
               <td>1.1k</td>
@@ -58,16 +58,61 @@
 
         </section>
 
+<!--MAIN BODY SECTION  -->
+
         <section class="rightcol">
-          <span class="tabs">
-            <h4>Contributions</h4>
-            <h4>Repositories</h4>
-            <h4>Public activity</h4>
-          <span>
+          <nav class="tabs">
+            <a href='#contributions' class="tabs" id="con">Contributions</a>
+            <a href="#repos" class="tabs" id="rep">Repositories</a>
+            <a href="#public" class="tabs" id="act">Public activity</a>
+          <nav>
+
+          <button><span class="octicon octicon-person"></span>Follow</button>
+          <!--http://foundation.zurb.com/docs/components/dropdown_buttons.html  -->
+          <button class="drpButton"><span class="octicon octicon-stop"></span></button>
+            <!-- <ul id="drpButton" data-dropdown-content class="f-dropdown" aria-hidden="true">>
+              <li><a href="#">User Actions</a></li>
+              <li><a href="#">Block User</a></li>
+              <li><a href="#">Report</a></li>
+            </ul> -->
+
+          <input type="text" id="reposrc" placeholder="Find a Repository">
+          <button>Search</button>
+
+          <ul class="filters">
+            <li>
+              <a href="#">All</a>
+            </li>
+            <li>
+              <a href="#">Sources</a>
+            </li>
+            <li>
+              <a href="#">Forks</a>
+            </li>
+            <li>
+              <a href="#">Mirrors</a>
+            </li>
+          </nav>
+
+
 
 
             <ul class="boxrepo">
-              <li>Spoon-Knife</li>
+              <li>
+                <h3 class="name">Spoon-Knife</h3>
+                <!-- <a href="/octocat/Spoon-Knife"></a> -->
+                <p class="descp">This repo is for demonstration purposes only.</p>
+                <p class="meta">Updated 5 hours ago</p>
+                <ul class="stats">
+                  <li>CSS</li>
+                  <li><span class="octicon octicon-star"></span>9,838</li>
+                  <li><span class="octicon octicon-git-branch"></span>70,444</li>
+                </ul>
+
+
+
+
+              </li>
               <li>Hello-World</li>
               <li>hello-world</li>
               <li>octocat.github.io</li>
