@@ -21,15 +21,21 @@
 //TODO add class "active" to SPECIFIC element clicked
 $('#con').on('click', function() {
   $('#con').addClass('active');
+  $('#rep').removeClass('active');
+  $('#act').removeClass('active');
 
 });
 
 $('#rep').on('click', function() {
   $('#rep').addClass('active');
+  $('#con').removeClass('active');
+  $('#act').removeClass('active');
 });
 
 $('#act').on('click', function() {
   $('#act').addClass('active');
+  $('#rep').removeClass('active');
+  $('#con').removeClass('active');
 });
 
 
