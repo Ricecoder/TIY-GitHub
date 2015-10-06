@@ -1,0 +1,22 @@
+{
+  "name": "TIY-GitHub",
+  "version": "0.0.3",
+  "homepage": "https://github.com/Ricecoder/TIY-GitHub",
+  "authors": [
+    "Lacey R. <laceyrice@me.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.10.1"
+  }
+}
