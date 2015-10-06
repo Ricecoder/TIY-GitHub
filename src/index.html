@@ -23,7 +23,7 @@
         <!-- Add your site or application content here -->
         <header>
         </header>
-
+      <main class="container">
         <section class="leftcol">
           <img id="octocat" src="https://avatars3.githubusercontent.com/u/583231?v=3&s=400" />
           <h1>{{name}}</h1>
@@ -61,12 +61,15 @@
 <!--MAIN BODY SECTION  -->
 
         <section class="rightcol">
+
+      <!-- TABS -->
           <nav class="tabs">
             <a href='#contributions' class="tabs" id="con">Contributions</a>
             <a href="#repos" class="tabs" id="rep">Repositories</a>
             <a href="#public" class="tabs" id="act">Public activity</a>
           <nav>
 
+      <!--FOLLOW BUTTON AND MENU BUTTON  -->
           <div class="buttons">
             <button id="follow"><span class="octicon octicon-person"></span>Follow</button>
           <!--http://foundation.zurb.com/docs/components/dropdown_buttons.html  -->
@@ -78,6 +81,7 @@
             </ul> -->
           </div>
 
+      <!--SEARCH AND FILTER OPTIONS  -->
           <input type="text" class="reposrc" placeholder="Find a Repository">
           <button class="reposrc">Search</button>
 
@@ -96,9 +100,7 @@
             </li>
           </nav>
 
-
-
-          <!-- REPOS -->
+        <!-- REPOS -->
             <ul class="boxrepo">
 
               <li id="spoon">
@@ -142,11 +144,6 @@
 
             </ul>
 
-
-
-
-
-
 <!--
           <span class="boxpubcon">
             <div id="activity">This is where the activity graph is</div>
@@ -161,19 +158,16 @@
               <h6>No recent contributions</h6> -->
 
         </section>
+      </main>
+
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <!-- TODO: Install lodash using bower -->
+        <!-- <script src="../bower_components/lodash.js"></script> -->
 
 
-
-
-
-
-
-
-
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <!-- NO LONGER NEED THESE VVVV -->
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
