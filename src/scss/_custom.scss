@@ -35,7 +35,7 @@
     // }
 
   }
-
+//TODO: SWITCH TO NEW UL
   table {
     display: inline-block;
     padding: 10px;
@@ -56,12 +56,12 @@
 
     .numbers {
       font-weight: bold;
-      color: #4078c0;
+      color: #4078c0; //bluish grey
       font-size: 20pt;
     }
 
     .category {
-      color: #767676;
+      color: #767676; //grey
       font-size: 12pt;
 
     }
@@ -75,8 +75,42 @@
   display: inline-block;
   width: 60%;
   margin: 10px;
-}
 
-.boxpubcon {
+  #follow {
+    background-color: green;
+    color: white;
+  }
+
+  nav.tabs {
+    float:left;
+    width:50%;
+    display: inline-block;
+  }
+
+  div.buttons {
+    float: left;
+    width: 45%;
+    display: inline-block;
+  }
+
+  .reposrc {
+    display: inline-block;
+
+  }
+
+  .filters a {
+    text-decoration: none;
+    color: #4078c0;
+  }
+
+  .boxrepo h3 {
+    color: #4078c0;
+  }
+
+
+
+
+
+
 
 }
