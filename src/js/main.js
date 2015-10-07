@@ -17,6 +17,14 @@
 jQuery.getJSON("../apis/github/users/ricecoder/ricecoder.json", function(data) {
   $('#name').html('<h1>' + data.name);
   $('#login').html('<h2>' + data.login);
+  $('#company').html('<li>' + data.company);
+  $('#location').html('<li>' + data.location);
+  $('#email').html('<li>' + data.email);
+  $('#blog').html('<li>' + data.blog);
+  $('#created_at').html('<li>' + data.created_at);
+  $('#followers').html('<li>' + data.followers);
+  $('#starred_url').html('<h1>' + data.starred_url);
+  $('#following').html('<h1>' + data.following);
 });
 
 
