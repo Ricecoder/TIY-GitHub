@@ -14,6 +14,8 @@
 // jQuery.ajax('../apis/github/users/octocat.json').then(function(data){
 //  console.log(arguments);
 // });
+
+
 jQuery.getJSON("../apis/github/users/ricecoder/ricecoder.json", function(data) {
   $('#name').html('<h1>' + data.name);
   $('#login').html('<h2>' + data.login);
@@ -27,12 +29,16 @@ jQuery.getJSON("../apis/github/users/ricecoder/ricecoder.json", function(data) {
   $('#following').html('<h1>' + data.following);
 });
 
-
+/*MAY OR MAY NOT POPULATE MY TEMPLATE
+ jQuery.getJSON("../apis/github/users/ricecoder/ricecoder.json", function(data) {
+   $('#profile').html(data.this);
+ });
+*/
 
 
 
 /* LODASH
-var info = _.template({{name}});
+var info = _.template(NEEDS A STRING?);
 info({})
 
 */
