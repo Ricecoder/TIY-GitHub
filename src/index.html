@@ -43,7 +43,7 @@
             <li id="created_at"><span class="octicon octicon-clock"></span>{{created_at}}</li>
           </ul>
 
-
+          <!-- TODO:Finish converting <table> into <ul> -->
           <ul>
             <li id="followers">{{followers}}</li>
             <li id="starred_url">{{starred_url}}</li>
@@ -62,7 +62,35 @@
             </tr>
           </table> -->
 
-        </section>
+        </section> <!-- END OF PROFILE SECTION -->
+
+          <!-- TODO: CREATE A TEMPLATE HERE SOMETHING LIKE:
+        <template id="profile">
+          <img id="octocat" src="https://avatars3.githubusercontent.com/u/583231?v=3&s=400" />
+            <h1 id="name">{{name}}</h1>
+            <h2 id="login">{{login}}</h2>
+
+          <ul>
+            <li id="company"><span class="octicon octicon-organization"></span>{{company}}</li>
+            <li id="location"><span class="octicon octicon-location"></span>{{location}}</li>
+            <li id="email"><span class="octicon octicon-mail"></span>{{email}}</li>
+            <li id="blog"><span class="octicon octicon-link"></span>{{blog}}</li>
+            <li id="created_at"><span class="octicon octicon-clock"></span>{{created_at}}</li>
+          </ul>
+
+          <ul>
+            <li id="followers">{{followers}}</li>
+            <li id="starred_url">{{starred_url}}</li>
+            <li id="following">{{following}}</li>
+          </ul>
+        </template>
+
+        TODO: CREATE JQUERY TO REPLACE THE {{PLACEHOLDER}} WITH DATA FROM A JSON
+        TODO: SOMEHOW CONVERT RETURNED OBJECT INTO A STRING
+        TODO: FEED THE STRING TO LODASH
+        TODO: CAPTURE LODASH OUTPUT IN A VARIABLE
+        -->
+
 
 <!--MAIN BODY SECTION  -->
 
