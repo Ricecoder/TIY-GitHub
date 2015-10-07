@@ -63,11 +63,12 @@
     .category {
       color: #767676; //grey
       font-size: 12pt;
-
     }
-  }
 
-}
+  } //END OF TABLE
+}//END OF LEFT COLUMN STYLING
+
+//MAIN CONTENT
 
 .rightcol {
   background-color: #d8d8d8;
@@ -76,12 +77,12 @@
   width: 60%;
   margin: 10px;
 
-  #follow {
+  #follow {                         //GREEN FOLLOW BUTTON
     background-color: green;
     color: white;
   }
 
-  nav.tabs {
+  nav.tabs {                //<nav class="tabs">
     float:left;
     width:50%;
     display: inline-block;
@@ -110,7 +111,4 @@
 
 
 
-
-
-
-}
+} //END OF RIGHT COLUMN

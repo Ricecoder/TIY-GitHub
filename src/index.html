@@ -24,12 +24,18 @@
         <header>
         </header>
 
+      <main class="container">
+
         <section class="leftcol">
           <img id="octocat" src="https://avatars3.githubusercontent.com/u/583231?v=3&s=400" />
-          <h1>{{name}}</h1>
-          <h2>{{login}}</h2>
+          <!-- <template id="nameT"> -->
+            <h1 id="name">{{name}}</h1>
+          <!-- </template> -->
+          <!-- <template id="login"> -->
+            <h2 id="login">{{login}}</h2>
+          <!-- </template> -->
 
-          <ul\>
+          <ul>
             <li id="company"><span class="octicon octicon-organization"></span>{{company}}</li>
             <li id="location"><span class="octicon octicon-location"></span>{{location}}</li>
             <li id="email"><span class="octicon octicon-mail"></span>{{email}}</li>
@@ -37,11 +43,11 @@
             <li id="created_at"><span class="octicon octicon-clock"></span>{{created_at}}</li>
           </ul>
 
-
+          <!-- TODO:Finish converting <table> into <ul> -->
           <ul>
-            <li>{{followers}}</li>
-            <li>{{starred_url}}</li>
-            <li>{{following}}</li>
+            <li id="followers">{{followers}}</li>
+            <li id="starred_url">{{starred_url}}</li>
+            <li id="following">{{following}}</li>
           </ul>
           <!-- <table>
             <tr class="numbers">
@@ -56,17 +62,50 @@
             </tr>
           </table> -->
 
-        </section>
+        </section> <!-- END OF PROFILE SECTION -->
+
+          <!--  TEMPLATE  -->
+        <template id="profile">
+          <img id="octocat" src="https://avatars3.githubusercontent.com/u/583231?v=3&s=400" />
+            <h1 id="name">{{name}}</h1>
+            <h2 id="login">{{login}}</h2>
+
+          <ul>
+            <li id="company"><span class="octicon octicon-organization"></span>{{company}}</li>
+            <li id="location"><span class="octicon octicon-location"></span>{{location}}</li>
+            <li id="email"><span class="octicon octicon-mail"></span>{{email}}</li>
+            <li id="blog"><span class="octicon octicon-link"></span>{{blog}}</li>
+            <li id="created_at"><span class="octicon octicon-clock"></span>{{created_at}}</li>
+          </ul>
+
+          <ul>
+            <li id="followers">{{followers}}</li>
+            <li id="starred_url">{{starred_url}}</li>
+            <li id="following">{{following}}</li>
+          </ul>
+        </template>
+
+<!-- PSEUDOCODE
+
+        TODO: CREATE JQUERY TO REPLACE THE {{PLACEHOLDER}} WITH DATA FROM A JSON
+        TODO: SOMEHOW CONVERT RETURNED OBJECT INTO A STRING
+        TODO: FEED THE STRING TO LODASH
+        TODO: CAPTURE LODASH OUTPUT IN A VARIABLE
+        -->
+
 
 <!--MAIN BODY SECTION  -->
 
         <section class="rightcol">
+
+      <!-- TABS -->
           <nav class="tabs">
             <a href='#contributions' class="tabs" id="con">Contributions</a>
             <a href="#repos" class="tabs" id="rep">Repositories</a>
             <a href="#public" class="tabs" id="act">Public activity</a>
           <nav>
 
+      <!--FOLLOW BUTTON AND MENU BUTTON  -->
           <div class="buttons">
             <button id="follow"><span class="octicon octicon-person"></span>Follow</button>
           <!--http://foundation.zurb.com/docs/components/dropdown_buttons.html  -->
@@ -78,6 +117,7 @@
             </ul> -->
           </div>
 
+      <!--SEARCH AND FILTER OPTIONS  -->
           <input type="text" class="reposrc" placeholder="Find a Repository">
           <button class="reposrc">Search</button>
 
@@ -96,9 +136,7 @@
             </li>
           </nav>
 
-
-
-          <!-- REPOS -->
+        <!-- REPOS -->
             <ul class="boxrepo">
 
               <li id="spoon">
@@ -142,11 +180,6 @@
 
             </ul>
 
-
-
-
-
-
 <!--
           <span class="boxpubcon">
             <div id="activity">This is where the activity graph is</div>
@@ -161,19 +194,24 @@
               <h6>No recent contributions</h6> -->
 
         </section>
+      </main>
+
+<!---   END OF HTML  --->
+
+<!--      BEGINNING OF TEMPLATE      -->
 
 
 
+<!--    END OF TEMPLATE                -->
+
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <!-- TODO: Install lodash using bower -->
+        <!-- <script src="../bower_components/lodash.js"></script> -->
 
 
-
-
-
-
-
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <!-- NO LONGER NEED THESE VVVV -->
+        <!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script> -->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
 
