@@ -12,16 +12,18 @@
     border-radius: 5px;
   }
 
-  h1 {
+  #name {
+    font-size: 18pt;
     margin-bottom: 5px;
   }
 
-  h2 {
+  #login {
     color: #767676;
     border-bottom: 1px solid #d8d8d8;
     margin-bottom: 10px;
     padding-bottom: 10px;
     font-weight: lighter;
+    font-size: 16pt;
   }
 
   ul{
@@ -29,6 +31,7 @@
     padding-left: 5px;
     border-bottom: 1px solid #d8d8d8;
     list-style: none;
+    font-size: 16pt;
 
     // .octicon octicon-organization {
     //   color: #d8d8d8;
@@ -112,3 +115,33 @@
 
 
 } //END OF RIGHT COLUMN
+
+
+//------------MEDIA QUERIES----------------
+
+@media (max-width: 767px) {           //MOBILE
+  .leftcol {
+    width: 100%;
+  }
+  .pict {
+    width: 200px;
+    height: 200px;
+  }
+  .profile {
+    display: inline-block;
+  }
+
+  h1 {                //tracer
+    color: red;
+  }
+}
+
+@media (max-width: 1024px) and (min-width: 768px){      //TABLET
+
+
+   }
+
+
+@media (min-width: 1025px) {            //DESKTOP
+
+   }
