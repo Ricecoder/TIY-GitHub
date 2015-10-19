@@ -40,56 +40,21 @@
               <li id="created_at"><span class="octicon octicon-clock"></span>{{created_at}}</li>
             </ul>
 
-          <!-- TODO:Finish converting <table> into <ul> -->
-            <ul>
-              <li id="followers">{{followers}}</li>
-              <li id="starred_url">{{starred_url}}</li>
-              <li id="following">{{following}}</li>
-            </ul>
+            <nav class="followers">
+              <a class="numbers" id="followers">{{followers}}</a>
+
+              <a class="numbers" id="starred_url">2</a>
+
+              <a class="numbers" id="following">{{following}}</a>
+              <p class="category">followers</p>
+              <p class="category">starred</p>
+              <p class="category">following</p>
+            </nav>
         </div>
-          <!-- <table>
-            <tr class="numbers">
-              <td>1.1k</td>
-              <td>2</td>
-              <td>6</td>
-            </tr>
-            <tr class="category">
-              <th>Followers</th>
-              <th>Starred</th>
-              <th>Following</th>
-            </tr>
-          </table> -->
 
         </section> <!-- END OF PROFILE SECTION -->
 
-          <!--  TEMPLATE  -->
-        <!-- <template id="profile">
-          <img id="octocat" src="https://avatars3.githubusercontent.com/u/583231?v=3&s=400" />
-            <h1 id="name">{{name}}</h1>
-            <h2 id="login">{{login}}</h2>
 
-          <ul>
-            <li id="company"><span class="octicon octicon-organization"></span>{{company}}</li>
-            <li id="location"><span class="octicon octicon-location"></span>{{location}}</li>
-            <li id="email"><span class="octicon octicon-mail"></span>{{email}}</li>
-            <li id="blog"><span class="octicon octicon-link"></span>{{blog}}</li>
-            <li id="created_at"><span class="octicon octicon-clock"></span>{{created_at}}</li>
-          </ul>
-
-          <ul>
-            <li id="followers">{{followers}}</li>
-            <li id="starred_url">{{starred_url}}</li>
-            <li id="following">{{following}}</li>
-          </ul>
-        </template> -->
-
-<!-- PSEUDOCODE
-
-        TODO: CREATE JQUERY TO REPLACE THE {{PLACEHOLDER}} WITH DATA FROM A JSON
-        TODO: SOMEHOW CONVERT RETURNED OBJECT INTO A STRING
-        TODO: FEED THE STRING TO LODASH
-        TODO: CAPTURE LODASH OUTPUT IN A VARIABLE
-        -->
 
 
 <!--MAIN BODY SECTION  -->
@@ -97,11 +62,16 @@
         <section class="rightcol">
 
       <!-- TABS -->
-          <nav class="tabs">
-            <a href='#contributions' class="tabs" id="con">Contributions</a>
+          <nav class="tabs desktop">
+            <a href="#contributions" class="tabs">Contributions</a>
+            <a href="#repos" class="tabs">Repositories</a>
+            <a href="#public" class="tabs">Public activity</a>
+          </nav>
+
+          <nav class="mobile">
+            <a href="#" class="tabs">About</a>
             <a href="#repos" class="tabs" id="rep">Repositories</a>
-            <a href="#public" class="tabs" id="act">Public activity</a>
-          <nav>
+          </nav>
 
       <!--FOLLOW BUTTON AND MENU BUTTON  -->
           <div class="buttons">
@@ -115,27 +85,44 @@
             </ul> -->
           </div>
 
-      <!--SEARCH AND FILTER OPTIONS  -->
-          <input type="text" class="reposrc" placeholder="Find a Repository">
-          <button class="reposrc">Search</button>
 
-          <ul class="filters">
-            <li class="filters">
-              <a href="#">All</a>
-            </li>
-            <li class="filters">
-              <a href="#">Sources</a>
-            </li>
-            <li class="filters">
-              <a href="#">Forks</a>
-            </li >
-            <li class="filters">
-              <a href="#">Mirrors</a>
-            </li>
-          </nav>
+
+      <section class="panels"> <!--PANELS-->
+        <!--CONTRIBUTIONS  -->
+        <div id="contributions">
+          <ul class="cont-list">
+            <li>Spoon-Knife</li>
+            <li>Hello-World</li>
+            <li>hello-world</li>
+            <li>octocat.github.io</li>
+            <li>git-consortium</li>
+          </ul>
+        </div>
+
 
         <!-- REPOS -->
-            <ul class="boxrepo">
+
+        <!--SEARCH AND FILTER OPTIONS  -->
+        <div id="repos">
+            <input type="text" class="reposrc" placeholder="Find a Repository">
+            <button class="reposrc">Search</button>
+
+            <ul class="filters">
+              <li class="filters">
+                <a href="#">All</a>
+              </li>
+              <li class="filters">
+                <a href="#">Sources</a>
+              </li>
+              <li class="filters">
+                <a href="#">Forks</a>
+              </li >
+              <li class="filters">
+                <a href="#">Mirrors</a>
+              </li>
+          </ul> <!--END OF FILTERS-->
+
+            <ul class="boxrepo" >
 
               <li id="spoon">
                 <h3 class="name">Spoon-Knife</h3>
@@ -175,9 +162,10 @@
                   <li><span class="octicon octicon-git-branch"></span>70,444</li>
                 </ul>
               </li>
+            </ul> <!--END OF BOX REPO-->
+          </div> <!--END OF REPOS -->
 
-            </ul>
-
+          </section> <!--END OF PANELS -->
 <!--
           <span class="boxpubcon">
             <div id="activity">This is where the activity graph is</div>

@@ -16,7 +16,7 @@
 // });
 
 
-jQuery.getJSON("../apis/github/users/ricecoder/ricecoder.json", function(data) {
+jQuery.getJSON("../apis/github/users/octocat.json", function(data) {
   $('#name').html('<h1>' + data.name);
   $('#login').html('<h2>' + data.login);
   $('#company').html('<li>' + data.company);
@@ -25,7 +25,7 @@ jQuery.getJSON("../apis/github/users/ricecoder/ricecoder.json", function(data) {
   $('#blog').html('<li>' + data.blog);
   $('#created_at').html('<li>' + data.created_at);
   $('#followers').html('<li>' + data.followers);
-  $('#starred_url').html('<h1>' + data.starred_url);
+  // $('#starred_url').html('<h1>' + data.starred_url);
   $('#following').html('<h1>' + data.following);
 });
 
@@ -48,23 +48,23 @@ info({})
 
 //TODO select tabs add click listener to them
 //TODO add class "active" to SPECIFIC element clicked
-$('#con').on('click', function() {
-  $('#con').addClass('active');
-  $('#rep').removeClass('active');
-  $('#act').removeClass('active');
+$('a[href="#contributions"]').on('click', function() {
+  $('#contributions').toggleClass('active');
+  $('#repos').removeClass('active');
+  $('#public').removeClass('active');
 
 });
 
-$('#rep').on('click', function() {
-  $('#rep').addClass('active');
-  $('#con').removeClass('active');
-  $('#act').removeClass('active');
+$('a[href="#repos"]').on('click', function() {
+  $('div#repos').toggleClass('active');
+  $('div#contributions').removeClass('active');
+  $('div#public').removeClass('active');
 });
 
-$('#act').on('click', function() {
-  $('#act').addClass('active');
-  $('#rep').removeClass('active');
-  $('#con').removeClass('active');
+$('a[href="#public"]').on('click', function() {
+  $('#public').toggleClass('active');
+  $('#repos').removeClass('active');
+  $('#contributions').removeClass('active');
 });
 
 
