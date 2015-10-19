@@ -39,21 +39,22 @@
 
   }
 //TODO: SWITCH TO NEW UL
-  table {
+  nav.followers {
     display: inline-block;
     padding: 10px;
     border-bottom: 1px solid #d8d8d8;
     width: 100%;
+    list-style: none;
 
-    td {
-      width: 20px;
-      text-align: center;
+    a {
+      float: left;
+      width: 33.33%;
 
     }
 
-    th {
-      width: 20px;
-      padding: 5px;
+    p {
+      float: left;
+      width: 33.33%;
       font-weight: lighter;
     }
 
@@ -68,7 +69,12 @@
       font-size: 12pt;
     }
 
-  } //END OF TABLE
+    #following {
+      font-size: 20pt;
+      margin: 0;
+    }
+
+  } //END OF NAV .FOLLOWERS
 }//END OF LEFT COLUMN STYLING
 
 //MAIN CONTENT
@@ -85,10 +91,26 @@
     color: white;
   }
 
-  nav.tabs {                //<nav class="tabs">
+  nav.tabs .desktop {                //<nav class="tabs">
     float:left;
     width:50%;
     display: inline-block;
+
+  nav.mobile {
+    display: none;
+  }
+
+    a {                         //TAB LINKS
+      text-decoration: none;
+      color: #767676;
+      margin: 0 5px;
+    }
+
+    a.active {                  //active link
+      color: black;
+      border: 1px solid #767676;
+    }
+
   }
 
   div.buttons {
@@ -107,6 +129,26 @@
     color: #4078c0;
   }
 
+  div#contributions {          //CONTRIBUTIONS PANEL
+    display: none;
+  }
+
+  #contributions.active {
+    display: inherit;
+    list-style: none;
+    color: #4078c0;
+  }
+
+  div#repos {               //REPOS PANEL
+    display: none;
+
+  }
+
+  #repos.active {
+    display: inherit;
+
+  }
+
   .boxrepo h3 {
     color: #4078c0;
   }
@@ -122,18 +164,33 @@
 @media (max-width: 767px) {           //MOBILE
   .leftcol {
     width: 100%;
+
   }
   .pict {
     width: 200px;
     height: 200px;
+    float: left;
   }
   .profile {
     display: inline-block;
+    float: left;
+
   }
 
-  h1 {                //tracer
-    color: red;
+  .rightcol {
+    width: 100%;
+    display: block;
   }
+  .mobile {
+   display: inherit;
+   text-decoration: none;
+   color: #4078c0;
+ }
+
+ .desktop {
+   display: none;
+ }
+
 }
 
 @media (max-width: 1024px) and (min-width: 768px){      //TABLET
