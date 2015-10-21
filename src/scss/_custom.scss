@@ -80,7 +80,7 @@
 //MAIN CONTENT
 
 .rightcol {
-  background-color: #d8d8d8;
+  // background-color: #d8d8d8;
   float: left;
   display: inline-block;
   width: 60%;
@@ -91,12 +91,15 @@
     color: white;
   }
 
-  nav.tabs .desktop {                //<nav class="tabs">
+  nav.tabs-desktop {                //<nav class="tabs">
     float:left;
     width:50%;
     display: inline-block;
+    text-decoration: none;
+    margin-right: 25px;
 
-  nav.mobile {
+
+  nav.mobile {                  //MOBILE SPECIFIC TABS
     display: none;
   }
 
@@ -104,6 +107,7 @@
       text-decoration: none;
       color: #767676;
       margin: 0 5px;
+      font-size: 10pt;
     }
 
     a.active {                  //active link
@@ -133,11 +137,25 @@
     display: none;
   }
 
-  #contributions.active {
+  #contributions.active {     //STYLING FOR ACTIVE contributions PANEL
     display: inherit;
-    list-style: none;
     color: #4078c0;
-  }
+
+    ul {                    //contributions list
+      list-style: none;
+      display: block;
+
+      li {
+        border: 1px solid #767676;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+        .con-name {
+          margin: 5px;
+        }
+      } //END LI
+    } // END UL
+  } //END #CONTRIBUTIONS
 
   div#repos {               //REPOS PANEL
     display: none;
@@ -153,11 +171,73 @@
     color: #4078c0;
   }
 
-
-
-
 } //END OF RIGHT COLUMN
 
+//----------COMMENT SECTION----------------------
+.comment-template{
+  display: block;
+  width: 100%;
+  margin: 10 auto;
+  border: 1px solid #ddd; //darker grey
+  @extend .clearfix;
+
+  .template-head {        //NAV FOR TABS
+    width: 100%;
+    display: inline-block;
+    background-color: #f7f7f7;
+  }  
+
+}
+
+
+
+.comment-form {           //COMMENT-FORM SECTION
+  display: block;
+  width: 100%;
+  margin: 10 auto;
+  border: 1px solid #ddd; //darker grey
+  @extend .clearfix;
+
+  .comment-nav {        //NAV FOR TABS
+    width: 100%;
+    display: inline-block;
+    background-color: #f7f7f7;
+    a {
+      text-decoration: none;
+      color: black;
+      margin-right: 5px;
+    }
+  } //END OF NAV
+
+  #write {          //FORM div
+    width: 100%;
+    margin: 0 auto;
+    // border: 1px solid #ddd;
+    border-top: none;
+
+    textarea {
+      width: 90%;
+      margin: 0 auto;
+      margin: 5px;
+      background-color: #fafafa; //light grey
+      border: 1px solid #ccc;
+    }
+
+    #comment {
+      background-color: green;
+      color: white;
+      float: right;
+      margin-bottom: 5px;
+      margin-right: 5px;
+    }
+  }
+  #preview {              //PREVIEW PANEL
+    display: none;
+    &.active{
+      display: inherit;
+    }
+  } //END OF PREVIEW PANEL
+} //END OF COMMENT-FORM SECTION
 
 //------------MEDIA QUERIES----------------
 
@@ -189,16 +269,21 @@
 
  .desktop {
    display: none;
+
  }
 
 }
 
 @media (max-width: 1024px) and (min-width: 768px){      //TABLET
-
+  .mobile {
+    display: none;
+  }
 
    }
 
 
 @media (min-width: 1025px) {            //DESKTOP
-
+  .mobile {
+    display: none;
+  }
    }
