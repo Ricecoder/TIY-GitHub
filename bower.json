@@ -19,6 +19,7 @@
   "dependencies": {
     "lodash": "~3.10.1",
     "modernizer": "~2.8.2",
-    "normalize-css": "normalize.css#~3.0.3"
+    "normalize-css": "normalize.css#~3.0.3",
+    "angular": "~1.4.7"
   }
 }
