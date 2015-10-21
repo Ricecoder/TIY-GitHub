@@ -16,12 +16,18 @@ app.run(function($http, $rootScope){
         // $rootScope.created_at = response.data.created_at;
         // $rootScope.following = response.data.following;
 
-
       $rootScope.user = response.data; //final form
+    }) //END OF .THEN
+}) //END OF $HTTP
+
+app.run(function($http, $rootScope){
+  $http.get('/apis/github/users/octocat/repositories.json')
+    .then(function (response){
+
+      $rootScope.repo = response.data;
 
     })
-})
-
+  })
 
 })();
 
@@ -80,24 +86,24 @@ app.run(function($http, $rootScope){
 //
 // //TODO select tabs add click listener to them
 // //TODO add class "active" to SPECIFIC element clicked
-// $('a[href="#contributions"]').on('click', function() {
-//   $('#contributions').toggleClass('active');
-//   $('#repos').removeClass('active');
-//   $('#public').removeClass('active');
-//
-// });
-//
-// $('a[href="#repos"]').on('click', function() {
-//   $('div#repos').toggleClass('active');
-//   $('div#contributions').removeClass('active');
-//   $('div#public').removeClass('active');
-// });
-//
-// $('a[href="#public"]').on('click', function() {
-//   $('#public').toggleClass('active');
-//   $('#repos').removeClass('active');
-//   $('#contributions').removeClass('active');
-// });
+$('a[href="#contributions"]').on('click', function() {
+  $('#contributions').toggleClass('active');
+  $('#repos').removeClass('active');
+  $('#public').removeClass('active');
+
+});
+
+$('a[href="#repos"]').on('click', function() {
+  $('div#repos').toggleClass('active');
+  $('div#contributions').removeClass('active');
+  $('div#public').removeClass('active');
+});
+
+$('a[href="#public"]').on('click', function() {
+  $('#public').toggleClass('active');
+  $('#repos').removeClass('active');
+  $('#contributions').removeClass('active');
+});
 //
 //
 
