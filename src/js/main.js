@@ -7,6 +7,13 @@ app.run(function($http, $rootScope){
       // $rootScope.login = "octocat";
         $rootScope.login = response.data.login;
         $rootScope.name = response.data.name;
+        $rootScope.location = response.data.location;
+        $rootScope.company = response.data.company;
+        $rootScope.blog = response.data.blog;
+        $rootScope.email = response.data.email;
+        $rootScope.followers = response.data.followers;
+        $rootScope.created_at = response.data.created_at;
+        $rootScope.following = response.data.following;
 
 
       // $rootScope.user = response.data; //final form
