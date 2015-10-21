@@ -4,19 +4,20 @@
 app.run(function($http, $rootScope){
   $http.get('/apis/github/users/octocat.json')
     .then(function (response){
-      // $rootScope.login = "octocat";
-        $rootScope.login = response.data.login;
-        $rootScope.name = response.data.name;
-        $rootScope.location = response.data.location;
-        $rootScope.company = response.data.company;
-        $rootScope.blog = response.data.blog;
-        $rootScope.email = response.data.email;
-        $rootScope.followers = response.data.followers;
-        $rootScope.created_at = response.data.created_at;
-        $rootScope.following = response.data.following;
+      // $rootScope.login = "octocat";            //baby step 1
+
+        // $rootScope.login = response.data.login;      //baby step 2
+        // $rootScope.name = response.data.name;
+        // $rootScope.location = response.data.location;
+        // $rootScope.company = response.data.company;
+        // $rootScope.blog = response.data.blog;
+        // $rootScope.email = response.data.email;
+        // $rootScope.followers = response.data.followers;
+        // $rootScope.created_at = response.data.created_at;
+        // $rootScope.following = response.data.following;
 
 
-      // $rootScope.user = response.data; //final form
+      $rootScope.user = response.data; //final form
 
     })
 })
