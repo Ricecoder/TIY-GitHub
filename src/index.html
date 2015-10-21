@@ -140,13 +140,13 @@
               <li id="hello">
                 <h3 class="name">Hello-World</h3>
                 <!-- <a href="/octocat/Hello-World"></a> --> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE -->
-                <p class="descp">This is your first repo!</p>
-                <p class="meta">{{updated_at}}</p> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE -->
+                <p class="descp">{{repo.description}}</p>
+                <p class="meta">{{repo.updated_at}}</p> <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE -->
                 <ul class="stats">
                 <!-- CONVERT THIS TO METADATA THAT IS UPDATABLE -->
                   <li>CSS</li>
-                  <li><span class="octicon octicon-star"></span>{{starred_url}}</li>
-                  <li><span class="octicon octicon-git-branch"></span>70,444</li>
+                  <li><span class="octicon octicon-star"></span>{{repo.stargazers_count}}</li>
+                  <li><span class="octicon octicon-git-branch"></span>{{repo.forks_count}}</li>
                 </ul>
               </li>
 
@@ -184,11 +184,7 @@
 
 <!---   END OF HTML  --->
 
-<!--      BEGINNING OF TEMPLATE      -->
 
-
-
-<!--    END OF TEMPLATE                -->
 
         <script src="bower_components/jquery/dist/jquery.js"></script>
         <!-- TODO: Install lodash using bower -->
