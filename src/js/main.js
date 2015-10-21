@@ -4,8 +4,9 @@
 app.run(function($http, $rootScope){
   $http.get('/apis/github/users/octocat.json')
     .then(function (response){
-      $rootScope.login = "octocat";
-
+      // $rootScope.login = "octocat";
+        $rootScope.login = response.data.login;
+        $rootScope.name = response.data.name;
 
 
       // $rootScope.user = response.data; //final form
