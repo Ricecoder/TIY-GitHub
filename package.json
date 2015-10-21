@@ -17,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/Ricecoder/TIY-GitHub/issues"
   },
-  "homepage": "https://github.com/Ricecoder/TIY-GitHub#readme"
+  "homepage": "https://github.com/Ricecoder/TIY-GitHub#readme",
+  "devDependencies": {
+    "bower": "^1.6.3",
+    "wiredep": "^2.2.2"
+  }
 }
