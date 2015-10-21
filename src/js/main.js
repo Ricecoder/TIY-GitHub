@@ -1,3 +1,15 @@
+;(function(){
+  angular.module("Tiy-Github", [])
+
+
+
+})();
+
+
+
+
+
+
 // (function() {
 //   // the code here is executed once in its own scope
 //   var octocatResult = $.ajax({ url: "https://api.github.com/users/octocat" });
@@ -15,59 +27,59 @@
 //  console.log(arguments);
 // });
 
-
-jQuery.getJSON("../apis/github/users/octocat.json", function(data) {
-  $('#name').html('<h1>' + data.name);
-  $('#login').html('<h2>' + data.login);
-  $('#company').html('<li>' + data.company);
-  $('#location').html('<li>' + data.location);
-  $('#email').html('<li>' + data.email);
-  $('#blog').html('<li>' + data.blog);
-  $('#created_at').html('<li>' + data.created_at);
-  $('#followers').html('<li>' + data.followers);
-  // $('#starred_url').html('<h1>' + data.starred_url);
-  $('#following').html('<h1>' + data.following);
-});
-
-/*MAY OR MAY NOT POPULATE MY TEMPLATE
- jQuery.getJSON("../apis/github/users/ricecoder/ricecoder.json", function(data) {
-   $('#profile').html(data.this);
- });
-*/
-
-
-
-/* LODASH
-var info = _.template(NEEDS A STRING?);
-info({})
-
-*/
-
-
-//CODE FOR TABS
-
-//TODO select tabs add click listener to them
-//TODO add class "active" to SPECIFIC element clicked
-$('a[href="#contributions"]').on('click', function() {
-  $('#contributions').toggleClass('active');
-  $('#repos').removeClass('active');
-  $('#public').removeClass('active');
-
-});
-
-$('a[href="#repos"]').on('click', function() {
-  $('div#repos').toggleClass('active');
-  $('div#contributions').removeClass('active');
-  $('div#public').removeClass('active');
-});
-
-$('a[href="#public"]').on('click', function() {
-  $('#public').toggleClass('active');
-  $('#repos').removeClass('active');
-  $('#contributions').removeClass('active');
-});
-
-
+//
+// jQuery.getJSON("../apis/github/users/octocat.json", function(data) {
+//   $('#name').html('<h1>' + data.name);
+//   $('#login').html('<h2>' + data.login);
+//   $('#company').html('<li>' + data.company);
+//   $('#location').html('<li>' + data.location);
+//   $('#email').html('<li>' + data.email);
+//   $('#blog').html('<li>' + data.blog);
+//   $('#created_at').html('<li>' + data.created_at);
+//   $('#followers').html('<li>' + data.followers);
+//   // $('#starred_url').html('<h1>' + data.starred_url);
+//   $('#following').html('<h1>' + data.following);
+// });
+//
+// /*MAY OR MAY NOT POPULATE MY TEMPLATE
+//  jQuery.getJSON("../apis/github/users/ricecoder/ricecoder.json", function(data) {
+//    $('#profile').html(data.this);
+//  });
+// */
+//
+//
+//
+// /* LODASH
+// var info = _.template(NEEDS A STRING?);
+// info({})
+//
+// */
+//
+//
+// //CODE FOR TABS
+//
+// //TODO select tabs add click listener to them
+// //TODO add class "active" to SPECIFIC element clicked
+// $('a[href="#contributions"]').on('click', function() {
+//   $('#contributions').toggleClass('active');
+//   $('#repos').removeClass('active');
+//   $('#public').removeClass('active');
+//
+// });
+//
+// $('a[href="#repos"]').on('click', function() {
+//   $('div#repos').toggleClass('active');
+//   $('div#contributions').removeClass('active');
+//   $('div#public').removeClass('active');
+// });
+//
+// $('a[href="#public"]').on('click', function() {
+//   $('#public').toggleClass('active');
+//   $('#repos').removeClass('active');
+//   $('#contributions').removeClass('active');
+// });
+//
+//
 
 
 //FOR LATER THE .ACTIVE INFO http://stackoverflow.com/questions/3148225/jquery-active-function
