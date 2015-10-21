@@ -29,23 +29,23 @@
         <section class="leftcol">
           <img class="pict" id="octocat" src="https://avatars3.githubusercontent.com/u/583231?v=3&s=400" />
           <div class="profile">
-            <h1 id="name">{{name}}</h1>
-            <h2 id="login">{{login}}</h2>
+            <h1 id="name">{{user.name}}</h1>
+            <h2 id="login">{{user.login}}</h2>
 
             <ul>
-              <li id="company"><span class="octicon octicon-organization"></span>{{company}}</li>
-              <li id="location"><span class="octicon octicon-location"></span>{{location}}</li>
-              <li id="email"><span class="octicon octicon-mail"></span>{{email}}</li>
-              <li id="blog"><span class="octicon octicon-link"></span>{{blog}}</li>
-              <li id="created_at"><span class="octicon octicon-clock"></span>{{created_at}}</li>
+              <li id="company"><span class="octicon octicon-organization"></span>{{user.company}}</li>
+              <li id="location"><span class="octicon octicon-location"></span>{{user.location}}</li>
+              <li id="email"><span class="octicon octicon-mail"></span>{{user.email}}</li>
+              <li id="blog"><span class="octicon octicon-link"></span>{{user.blog}}</li>
+              <li id="created_at"><span class="octicon octicon-clock"></span>{{user.created_at}}</li>
             </ul>
 
             <nav class="followers">
-              <a class="numbers" id="followers">{{followers}}</a>
+              <a class="numbers" id="followers">{{user.followers}}</a>
 
               <a class="numbers" id="starred_url">2</a>
 
-              <a class="numbers" id="following">{{following}}</a>
+              <a class="numbers" id="following">{{user.following}}</a>
               <p class="category">followers</p>
               <p class="category">starred</p>
               <p class="category">following</p>
