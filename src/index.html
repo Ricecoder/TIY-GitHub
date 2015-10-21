@@ -1,9 +1,9 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html class="no-js" lang="" ng-app="Tiy-Github">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title></title>
+        <title>{{user.name}}</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -24,7 +24,7 @@
         <header>
         </header>
 
-      <main class="container" ng-app="Tiy-Github">
+      <main class="container">
 
         <section class="leftcol">
           <img class="pict" id="octocat" src="https://avatars3.githubusercontent.com/u/583231?v=3&s=400" />
@@ -62,7 +62,7 @@
         <section class="rightcol">
 
       <!-- TABS -->
-          <nav class="tabs desktop">
+          <nav class="tabs-desktop">
             <a href="#contributions" class="tabs">Contributions</a>
             <a href="#repos" class="tabs">Repositories</a>
             <a href="#public" class="tabs">Public activity</a>
@@ -89,13 +89,13 @@
 
       <section class="panels"> <!--PANELS-->
         <!--CONTRIBUTIONS  -->
-        <div id="contributions">
+        <div id="contributions" class="active">
           <ul class="cont-list">
-            <li>Spoon-Knife</li>
-            <li>Hello-World</li>
-            <li>hello-world</li>
-            <li>octocat.github.io</li>
-            <li>git-consortium</li>
+            <li><span class="con-name">Spoon-Knife</span></li>
+            <li><span class="con-name">Hello-World</span></li>
+            <li><span class="con-name">hello-world</span></li>
+            <li><span class="con-name">octocat.github.io</span></li>
+            <li><span class="con-name">git-consortium</span></li>
           </ul>
         </div>
 
@@ -166,20 +166,37 @@
           </div> <!--END OF REPOS -->
 
           </section> <!--END OF PANELS -->
-<!--
-          <span class="boxpubcon">
-            <div id="activity">This is where the activity graph is</div>
-            <section class="contributions">
-              <h6>Contributions in the last year</h6>
-              <h3>0 total</h3>
-              <h6>Sep 29, 2014 - Sep 29, 2015</h6>
-            </section>
-            <select class="streak">
-              <h6>Longest streak</h6>
-              <h3>0 days</h3>
-              <h6>No recent contributions</h6> -->
 
-        </section>
+          <section class="comment-template" ng-repeat="comment in comments"> <!--COMMENT-template SECTION-->
+            <div class="template-head">
+              <span id="commenter">{{comment.user.login}}</span>
+              <span id="template-time">{{comment.created_at}}</span>
+              <!-- BUTTONS OPTIONAL -->
+            </div>  <!--END OF HEADER-->
+            <div class="template-comment">
+              <span id="comment">{{comment.body}}</span>
+            </div>
+
+          </section>  <!--END COMMENT-TEMPLATE SECTION-->
+
+          <section class="comment-form"> <!--COMMENT-FORM SECTION-->
+            <nav class="comment-nav">
+              <a href="#write">Write</a>
+              <a href="#preview">Preview</a>
+            </nav>
+            <div id="write">
+              <form class="comment-input">
+                <textarea placeholder="Leave a comment"></textarea>
+              </form>
+              <button id="comment">Comment</button>
+            </div>
+            <div id="preview">
+              SUPRISE!
+            </div>
+          </section>  <!--END COMMENT-FORM SECTION-->
+
+
+        </section> <!--END LEFT COLUMN SECTION-->
       </main>
 
 <!---   END OF HTML  --->
