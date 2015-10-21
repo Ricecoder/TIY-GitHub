@@ -1,6 +1,17 @@
 ;(function(){
-  angular.module("Tiy-Github", [])
+  var app = angular.module("Tiy-Github", []);
 
+app.run(function($http, $rootScope){
+  $http.get('/apis/github/users/octocat.json')
+    .then(function (response){
+      $rootScope.login = "octocat";
+
+
+
+      // $rootScope.user = response.data; //final form
+
+    })
+})
 
 
 })();
