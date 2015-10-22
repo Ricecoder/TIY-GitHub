@@ -174,20 +174,22 @@
 } //END OF RIGHT COLUMN
 
 //----------COMMENT SECTION----------------------
-.comment-template{
+.comment-template{      //TEMPLATE
   display: block;
   width: 100%;
-  margin: 10 auto;
+  margin-bottom: 15px;
   border: 1px solid #ddd; //darker grey
   @extend .clearfix;
 
   .template-head {        //NAV FOR TABS
     width: 100%;
     display: inline-block;
-    background-color: #f7f7f7;
-  }  
+    background-color: #f2f8fa;
+    border-bottom: 1px solid #ddd; //darker grey
 
-}
+  }
+
+}  //END OF TEMPLATE
 
 
 
@@ -195,6 +197,7 @@
   display: block;
   width: 100%;
   margin: 10 auto;
+  margin-top: 10px;
   border: 1px solid #ddd; //darker grey
   @extend .clearfix;
 
@@ -202,6 +205,8 @@
     width: 100%;
     display: inline-block;
     background-color: #f7f7f7;
+    border-bottom: 1px solid #ddd; //darker grey
+
     a {
       text-decoration: none;
       color: black;
