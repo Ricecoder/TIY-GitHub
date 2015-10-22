@@ -170,7 +170,7 @@
           <section class="comment-template" ng-repeat="comment in comments"> <!--COMMENT-template SECTION-->
             <div class="template-head">
               <span id="commenter">{{comment.user.login}}</span>
-              <span id="template-time">{{comment.created_at}}</span>
+              <span id="template-time">commented {{comment.created_at | date }}</span>
               <!-- BUTTONS OPTIONAL -->
             </div>  <!--END OF HEADER-->
             <div class="template-comment">
