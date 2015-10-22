@@ -27,7 +27,18 @@ app.run(function($http, $rootScope){
       $rootScope.repo = response.data;
 
     })
-  })
+  })   //end of repo function
+
+  app.run(function($http, $rootScope){
+    $http.get('/apis/github/users/ricecoder/comments.json')
+    // $http.get('https://api.github.com/repos/TIY-Durham/2015-FALL-FEE/issues/511/comments')
+      .then(function (response){
+        // $rootScope.created_at = "TODAY";
+        $rootScope.comments = response.data;
+        // $rootScope.comment = response.data;
+      })
+  })  //END COMMENT FUNCTION
+//HOW TO USE FIREBASE WITH GITHUB! https://www.firebase.com/docs/web/guide/login/github.html
 
 })();
 
